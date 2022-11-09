@@ -3,7 +3,7 @@
 	"$id": "util.json",
 	"title": "Util",
 	"description": "Utility definitions to be used in other schemas.",
-	"version": "1.11.30",
+	"version": "1.12.0",
 	"definitions": {
 		"metaBlock": {
 			"type": "object",
@@ -1253,6 +1253,16 @@
 				}
 			]
 		},
+		"_speedMode": {
+			"type": "string",
+			"enum": [
+				"walk",
+				"burrow",
+				"climb",
+				"fly",
+				"swim"
+			]
+		},
 		"speed": {
 			"oneOf": [
 				{
@@ -1282,14 +1292,7 @@
 								"from": {
 									"type": "array",
 									"items": {
-										"type": "string",
-										"enum": [
-											"walk",
-											"burrow",
-											"climb",
-											"fly",
-											"swim"
-										]
+										"$ref": "#/definitions/_speedMode"
 									},
 									"uniqueItems": true,
 									"minItems": 2
@@ -1346,6 +1349,14 @@
 									"uniqueItems": true
 								}
 							}
+						},
+						"hidden": {
+							"type": "array",
+							"items": {
+								"$ref": "#/definitions/_speedMode"
+							},
+							"uniqueItems": true,
+							"minItems": 1
 						}
 					},
 					"additionalProperties": false
@@ -3662,7 +3673,7 @@
 				]
 			}
 		},
-		"foundryDataObject": {
+		"foundrySystemObject": {
 			"type": "object"
 		},
 		"foundryFlagsObject": {
@@ -3706,7 +3717,13 @@
 									"integer"
 								]
 							},
-							"value": true
+							"value": true,
+							"priority": {
+								"type": [
+									"string",
+									"integer"
+								]
+							}
 						},
 						"required": [
 							"key",
@@ -3715,6 +3732,12 @@
 						],
 						"additionalProperties": false
 					}
+				},
+				"flags": {
+					"type": "object"
+				},
+				"duration": {
+					"type": "object"
 				},
 				"disabled": {
 					"const": true
@@ -3749,8 +3772,8 @@
 					"source": {
 						"type": "string"
 					},
-					"data": {
-						"$ref": "#/definitions/foundryDataObject"
+					"system": {
+						"$ref": "#/definitions/foundrySystemObject"
 					},
 					"effects": {
 						"type": "array",
@@ -3788,8 +3811,8 @@
 					"isIgnored": {
 						"const": true
 					},
-					"data": {
-						"$ref": "#/definitions/foundryDataObject"
+					"system": {
+						"$ref": "#/definitions/foundrySystemObject"
 					},
 					"actorDataMod": {
 						"type": "object"
