@@ -11262,7 +11262,7 @@
 		{
 			"name": "Loot, Special Ammo",
 			"source": "GGGG",
-			"caption": "Arrows, Bolts or Bullets, depending on who opened the chest.",
+			"caption": "",
 			"colLabels": [
 				"d100",
 				"Ammo"
