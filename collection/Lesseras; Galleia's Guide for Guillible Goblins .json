@@ -3236,17 +3236,17 @@
 				],
 				[
 					"16-20",
-					"{@table Chescos|GGGG}",
+					"{@table Loot, Chescos|GGGG}",
 					"10-12: x2"
 				],
 				[
 					"21-25",
-					"{@table Boone's|GGGG}",
+					"{@table Loot, Boone's|GGGG}",
 					"10-12: x2"
 				],
 				[
 					"26-30",
-					"test Special Ammo",
+					"{@table Loot, Special Ammo}",
 					"10-12: x2"
 				],
 				[
@@ -3276,7 +3276,7 @@
 				],
 				[
 					"46-49",
-					"{@dice 1d4} {@table Ores & Ingots|GGGG}",
+					"{@dice 1d4} {@table Loot, Ores & Ingots|GGGG}",
 					"10-12: x2"
 				],
 				[
@@ -3362,7 +3362,7 @@
 			]
 		},
 		{
-			"name": "Ores & Ingots Loot",
+			"name": "Loot, Ores & Ingots",
 			"source": "GGGG",
 			"caption": "",
 			"colLabels": [
@@ -3469,6 +3469,147 @@
 				[
 					"96-100",
 					"{@dice 1d4} {@item Ingot, Nether Gold|GGGG|Nether Gold Ingots}"
+				]
+			]
+		},
+		{
+			"name": "Loot, Chescos",
+			"source": "GGGG",
+			"caption": "",
+			"colLabels": [
+				"d10",
+				"Chesco Type"
+			],
+			"colStyles": [
+				"text-align-left",
+				"text-align-left"
+			],
+			"rows": [
+				[
+					"1-3",
+					"{@item Veno-Chesco|GGGG}"
+				],
+				[
+					"4-6",
+					"{@item Vita-Chesco|GGGG}"
+				],
+				[
+					"7-9",
+					"{@item Nursi-Chesco|GGGG}"
+				],
+				[
+					"10",
+					"{@item Omni-Chesco|GGGG}"
+				]
+			]
+		},
+		{
+			"name": "Loot, Boone's",
+			"source": "GGGG",
+			"caption": "",
+			"colLabels": [
+				"d10",
+				"Boone's Flavor"
+			],
+			"colStyles": [
+				"text-align-left",
+				"text-align-left"
+			],
+			"rows": [
+				[
+					"1",
+					"{@item Boone's, Smelly Strawberry|GGGG|Smelly Strawberry}"
+				],
+				[
+					"2",
+					"{@item Boone's, Giant Grapes|GGGG|Giant Grapes}"
+				],
+				[
+					"3",
+					"{@item Boone's, Basilisk Blueberry|GGGG|Basilisk Blueberry}"
+				],
+				[
+					"4",
+					"{@item Boone's, Astral Apples|GGGG|Astral Apples}"
+				],
+				[
+					"5",
+					"{@item Boone's, Dragon Damson|GGGG|Dragon Damson}"
+				],
+				[
+					"6",
+					"{@item Boone's, Lemon-Aid|GGGG|Lemon-Aid}"
+				],
+				[
+					"7",
+					"{@item Boone's, Bellic Blackberry|GGGG|Bellic Blackberry}"
+				],
+				[
+					"8",
+					"{@item Boone's, Roguish Raspberry|GGGG|Roguish Raspberry}"
+				],
+				[
+					"9",
+					"{@item Boone's, Tangled Tangerines|GGGG|Tangled Tangerines}"
+				],
+				[
+					"10",
+					"{@item Efreeti Bottle|dmg|Weird Red Bottle}"
+				]
+			]
+		},
+		{
+			"name": "Loot, Orbs",
+			"source": "GGGG",
+			"caption": "",
+			"colLabels": [
+				"d100",
+				"Orb"
+			],
+			"colStyles": [
+				"text-align-left",
+				"text-align-left"
+			],
+			"rows": [
+				[
+					"1-10",
+					"{@dice 1d4} {@item Orb, Soul|GGGG|Soul Orb}"
+				],
+				[
+					"11-20",
+					"{@dice 1d4} {@item Orb, Spell|GGGG|Spell Orb}"
+				],
+				[
+					"21-30",
+					"{@dice 1d4} {@item Orb, Materia|GGGG|Materia Orb}"
+				],
+				[
+					"31-40",
+					"{@dice 1d4} {@item Orb, Conflicted|GGGG|Conflicted Orb}"
+				],
+				[
+					"41-50",
+					"{@dice 1d4} {@item Orb, Ancestral|GGGG|Ancestral Orb}"
+				],
+				[
+					"51-60",
+					"{@dice 1d4} {@item Orb, Transmutation|GGGG|Transmutation Orb}"
+				],
+				[
+					"61-70",
+					"{@dice 1d4} {@item Orb, Blessed|GGGG|Blessed Orb}"
+				],
+				[
+					"71-80",
+					"{@dice 1d4} {@item Orb, Chaos|GGGG|Chaos Orb}"
+				],
+				[
+					"81-90",
+					"{@dice 1d4} {@item Orb, Exalted|GGGG|Exalted Orb}"
+				],
+				[
+					"91-100",
+					"{@dice 1d4} {@item Orb, Kismat|GGGG|Kismat Orb}"
 				]
 			]
 		},
@@ -11119,7 +11260,7 @@
 			]
 		},
 		{
-			"name": "Special Ammo Loot",
+			"name": "Loot, Special Ammo",
 			"source": "GGGG",
 			"caption": "Arrows, Bolts or Bullets, depending on who opened the chest.",
 			"colLabels": [
