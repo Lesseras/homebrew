@@ -13255,6 +13255,74 @@
 			"entries": [
 				"Crafting material used for alchemy, enchanting, scroll scribing and wand whittling."
 			]
+		},
+		{
+			"name": "Veno-Chesco",
+			"source": "GGGG",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 1,
+			"value": 15000,
+			"type": "P",
+			"tool": "",
+			"ability": "",
+			"property": [
+				""
+			],
+			"entries": [
+				"Used as a Potion of Healing that also removes one effect that is poisoning you."
+			]
+		},
+		{
+			"name": "Vita-Chesco",
+			"source": "GGGG",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 1,
+			"value": 20000,
+			"type": "P",
+			"tool": "",
+			"ability": "",
+			"property": [
+				""
+			],
+			"entries": [
+				"Used as a Potion of Healing that also restores reduced Max HP."
+			]
+		},
+		{
+			"name": "Nursi-Chesco",
+			"source": "GGGG",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 1,
+			"value": 25000,
+			"type": "P",
+			"tool": "",
+			"ability": "",
+			"property": [
+				""
+			],
+			"entries": [
+				"Used as a Potion of Healing that also removes one disease."
+			]
+		},
+		{
+			"name": "Omni-Chesco",
+			"source": "GGGG",
+			"tier": "minor",
+			"rarity": "very rare",
+			"weight": 1,
+			"value": 50000,
+			"type": "P",
+			"tool": "",
+			"ability": "",
+			"property": [
+				""
+			],
+			"entries": [
+				"Used as a Potion of Healing that also removes all poisoning, diseases and restores 2 reduced Max HP."
+			]
 		}
 	]
 }
