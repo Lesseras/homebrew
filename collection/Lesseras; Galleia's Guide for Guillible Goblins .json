@@ -11117,7 +11117,163 @@
 					"This armor is shiny"
 				]
 			]
+		},
+		{
+			"name": "Special Ammo Loot",
+			"source": "GGGG",
+			"caption": "Arrows, Bolts or Bullets, depending on who opened the chest.",
+			"colLabels": [
+				"d100",
+				"Ammo"
+			],
+			"colStyles": [
+				"text-align-left",
+				"text-align-left"
+			],
+			"rows": [
+				[
+					"1-3",
+					"{@dice 3d4} {@item Arrow, Hummerhead Blunt (10)|YTA|Hummerhead Blunt}"
+				],
+				[
+					"4-6",
+					"{@dice 3d4} {@item Arrows, Corkscrew (10)|YTA|Corkscrew}"
+				],
+				[
+					"7-9",
+					"{@dice 3d4} {@item Arrows, Water (10)|YTA|Water}"
+				],
+				[
+					"10-12",
+					"{@dice 3d4} {@item Arrows, Fire (10)|YTA|Fire}"
+				],
+				[
+					"13-15",
+					"{@dice 3d4} {@item Arrows, Blinding (10)|YTA|Blinding}"
+				],
+				[
+					"16-18",
+					"{@dice 3d4} {@item Arrow, Ftight (10)|YTA|Flight}"
+				],
+				[
+					"19-21",
+					"{@dice 3d4} {@item Arrow, Alchemical|WoC|Alchemical}"
+				],
+				[
+					"22-24",
+					"{@dice 3d4} {@item Arrow, Barbed|Woc|Barbed}"
+				],
+				[
+					"25-27",
+					"{@dice 3d4} {@item Arrow, Fire|Woc|Flammable}"
+				],
+				[
+					"29-31",
+					"{@dice 3d4} {@item Arrow, Flight|Woc|Flying}"
+				],
+				[
+					"32-34",
+					"{@dice 3d4} {@item Arrow, Frog Crotch|Woc|Frog Crotch}"
+				],
+				[
+					"35-37",
+					"{@dice 3d4} {@item Arrow, Grappling|Woc|Grappling}"
+				],
+				[
+					"38-40",
+					"{@dice 3d4} {@item Arrow, Screaming|Woc|Screaming}"
+				],
+				[
+					"41-43",
+					"{@dice 3d4} {@item Arrow, Smoke|Woc|Smoke}"
+				],
+				[
+					"44-46",
+					"{@dice 3d4} {@item Crossbow Bolt, Inking|Woc|Inking}"
+				],
+				[
+					"47-49",
+					"{@dice 3d4} {@item Arrow, Dark Iron|YTA|Dark Iron}"
+				],
+				[
+					"50-52",
+					"{@dice 3d4} {@item Arrow, Injection|Woc|Injection}"
+				],
+				[
+					"53-55",
+					"{@dice 3d4} {@item Arrows, Acid (10)|Woc|Acid}"
+				],
+				[
+					"56-58",
+					"{@dice 3d4} {@item +1 Ammunition|DMG|+1}"
+				],
+				[
+					"59-61",
+					"{@dice 2d4} {@item +2 Ammunition|DMG|+2}"
+				],
+				[
+					"62-64",
+					"{@dice 1d4} {@item +3 Ammunition|DMG|+3}"
+				],
+				[
+					"65-67",
+					"{@dice 3d4} {@item Arrow of Glue|VSS|Glue}"
+				],
+				[
+					"69-71",
+					"{@dice 3d4} {@item Arrow of Teleportation|VSS|Teleportation}"
+				],
+				[
+					"72-74",
+					"{@dice 3d4} {@item Arrows, Ice (10)|YTA|Ice}"
+				],
+				[
+					"75-77",
+					"{@dice 3d4} {@item Arrows, Lightning (10)|YTA|Lightning}"
+				],
+				[
+					"79-81",
+					"{@dice 3d4} {@item Arrows, Mindpiercers (10)|YTA|Mindpiercing}"
+				],
+				[
+					"82-84",
+					"{@dice 3d4} {@item Arrows, Thunderclap (10)|YTA|Thunderclap}"
+				],
+				[
+					"85-87",
+					"{@dice 3d4} {@item Phase Arrow|VSS|Phase}"
+				],
+				[
+					"88-90",
+					"{@dice 3d4} {@item Portable Cannonballs|VSS|Cannonballs}"
+				],
+				[
+					"91-92",
+					"{@dice 2d4} {@item Arrow of Piercing|VSS|Piercing}"
+				],
+				[
+					"93-94",
+					"{@dice 1d4} {@item Arrow of Explosions|VSS|Exploding}"
+				],
+				[
+					"95-96",
+					"{@dice 1d4} {@item Arrow of Slaying (*)|DMG|Slaying}"
+				],
+				[
+					"97-98",
+					"{@dice 1d4+4} {@item Sling Bullets of Althemone|MOT|Daedric}"
+				],
+				[
+					"99",
+					"{@dice 1d4} {@item Reaper's Bullet|VSS|Reaper}"
+				],
+				[
+					"100",
+					"{@dice 1d4} {@item True Death Arrow|AOTG|True Death}"
+				]
+			]
 		}
+
 	],
 	"itemProperty": [
 		{
