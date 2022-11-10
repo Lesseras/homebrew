@@ -13264,10 +13264,10 @@
 			"weight": 1,
 			"value": 15000,
 			"type": "P",
-			"tool": "",
-			"ability": "",
+			"tool": "{@item Alchemist's Supplies|phb}",
+			"ability": "{@skill Intelligence}",
 			"property": [
-				""
+				"crfWith"
 			],
 			"entries": [
 				"Used as a Potion of Healing that also removes one effect that is poisoning you."
@@ -13281,10 +13281,10 @@
 			"weight": 1,
 			"value": 20000,
 			"type": "P",
-			"tool": "",
-			"ability": "",
+			"tool": "{@item Alchemist's Supplies|phb}",
+			"ability": "{@skill Intelligence}",
 			"property": [
-				""
+				"crfWith"
 			],
 			"entries": [
 				"Used as a Potion of Healing that also restores reduced Max HP."
@@ -13298,10 +13298,10 @@
 			"weight": 1,
 			"value": 25000,
 			"type": "P",
-			"tool": "",
-			"ability": "",
+			"tool": "{@item Alchemist's Supplies|phb}",
+			"ability": "{@skill Intelligence}",
 			"property": [
-				""
+				"crfWith"
 			],
 			"entries": [
 				"Used as a Potion of Healing that also removes one disease."
@@ -13315,10 +13315,10 @@
 			"weight": 1,
 			"value": 50000,
 			"type": "P",
-			"tool": "",
-			"ability": "",
+			"tool": "{@item Alchemist's Supplies|phb}",
+			"ability": "{@skill Intelligence}",
 			"property": [
-				""
+				"crfWith"
 			],
 			"entries": [
 				"Used as a Potion of Healing that also removes all poisoning, diseases and restores 2 reduced Max HP."
